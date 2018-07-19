@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/marcusquarles/Desktop/searchable/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/marcusquarles/Desktop/searchable/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/marcusquarles/Desktop/searchable/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/marcusquarles/Desktop/searchable/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/marcusquarles/Desktop/searchable/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/marcusquarles/Desktop/searchable/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTMultipartStreamReader.h \
+  /Users/marcusquarles/Desktop/searchable/node_modules/react-native/React/Base/RCTPerformanceLogger.h
