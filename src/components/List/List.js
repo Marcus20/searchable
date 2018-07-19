@@ -1,31 +1,30 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {
     View,
     Text,
     TouchableOpacity,
 } from 'react-native';
 
-export default class List extends Component {
-    state = {
-        list: [
-            "Chicago Bulls",
-            "Los Angeles Lakers"
-        ]
-    }
+const List = (props) => {
 
-    render() {
-        return (
-            <View>
-                {
-                    this.state.list.map((item, i) => {
-                        return (
-                        <View key={i}>
+    return (
+        <View>
+            {
+                props.myList.map((item, i) => {
+                    return (
+                    <View
+                        key={i}
+                        style={}
+                    >
+                        <TouchableOpacity>
                             <Text>{item}</Text>
-                        </View>
-                        );
-                    })
-                }
-            </View> 
-        )
-    }
+                        </TouchableOpacity>
+                    </View>
+                    );
+                })
+            }
+        </View> 
+    )
 }
+
+export default List;

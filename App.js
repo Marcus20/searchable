@@ -1,24 +1,19 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, TextInput} from 'react-native';
 
-// Custom Components
-import List from "./src/components/List/List";
-import SearchBar from "./src/components/Search/SearchBar";
+import Notes from "./src/components/Notes/Notes";
 
 export default class App extends Component {
 
   render() {
     return (
       <View>
-        <SearchBar />
-        <List />  
+        <Notes />  
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  inputBox: {
-    height: 40
-  }
+  
 });
