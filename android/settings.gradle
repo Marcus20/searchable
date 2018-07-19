@@ -1,0 +1,3 @@
+rootProject.name = 'searchable'
+
+include ':app'
