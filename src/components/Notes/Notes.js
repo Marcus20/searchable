@@ -2,19 +2,15 @@ import React, { Component }  from 'react';
 import {
     View,
     TextInput,
-    StyleSheet} from 'react-native';
+    StyleSheet
+} from 'react-native';
 
-import rawList from '../../helpers/rawData';
+
 import List from '../List/List';
 
 export default class Notes extends Component {
     state = {
-        text: 'Input placeholder',
-        list: rawList
-    }
-
-    updateList() {
-
+        searchText: '',
     }
 
     render() {
@@ -22,12 +18,12 @@ export default class Notes extends Component {
             <View>
                 <TextInput 
                     style={styles.inputBox}
-                    onChangeText={(text) => console.log(text)}
-                    value={this.state.text}
+                    onChangeText={text => this.setState({searchText: text})}
+                    value={this.state.searchText}
                 />
 
                 <List 
-                    myList={this.state.list}
+                    searchTerm={this.state.searchText}
                 />
             </View>
         )
@@ -39,6 +35,6 @@ const styles = StyleSheet.create({
     inputBox: {
       height: 40,
       backgroundColor: 'yellow',
-      marginTop: 20
-    }
+      marginTop: 20,
+    },
 });

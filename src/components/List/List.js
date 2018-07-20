@@ -3,18 +3,23 @@ import {
     View,
     Text,
     TouchableOpacity,
+    StyleSheet
 } from 'react-native';
+
+import rawList from '../../helpers/rawData';
 
 const List = (props) => {
 
     return (
         <View>
             {
-                props.myList.map((item, i) => {
+                rawList
+                .filter(item => item.toLowerCase().indexOf(props.searchTerm.toLowerCase()) >= 0)
+                .map((item, i) => {
                     return (
                     <View
                         key={i}
-                        style={}
+                        style={styles.listItem}
                     >
                         <TouchableOpacity>
                             <Text>{item}</Text>
@@ -26,5 +31,12 @@ const List = (props) => {
         </View> 
     )
 }
+
+const styles = StyleSheet.create({
+    listItem: {
+        borderBottomWidth: 1,
+        padding: 10
+    }
+})
 
 export default List;
