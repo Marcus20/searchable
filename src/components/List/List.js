@@ -1,6 +1,7 @@
 import React from 'react';
 import {
     View,
+    ScrollView,
     Text,
     TouchableOpacity,
     StyleSheet
@@ -11,7 +12,7 @@ import rawList from '../../helpers/rawData';
 const List = (props) => {
 
     return (
-        <View>
+        <ScrollView>
             {
                 rawList
                 .filter(item => item.toLowerCase().indexOf(props.searchTerm.toLowerCase()) >= 0)
@@ -28,7 +29,7 @@ const List = (props) => {
                     );
                 })
             }
-        </View> 
+        </ScrollView> 
     )
 }
 

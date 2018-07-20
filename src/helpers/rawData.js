@@ -8,5 +8,11 @@ export default [
     'Boston Celtics',
     'San Antonio Spurs',
     'Minnesota Timberwolves',
-    'Milwaukee Bucks'
+    'Milwaukee Bucks',
+    'Houston Rockets',
+    'Chicago Bulls',
+    'Portland Trail Blazers',
+    'Denver Nuggets',
+    'Miami Heat',
+    'New York Knicks'
 ];
