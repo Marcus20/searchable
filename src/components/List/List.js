@@ -8,9 +8,10 @@ import {
 } from 'react-native';
 
 import rawList from '../../helpers/rawData';
+const courseInfo = 'http://ec2-52-90-72-175.compute-1.amazonaws.com:4000';
 
 const List = (props) => {
-
+    console.log(courseInfo)
     return (
         <ScrollView>
             {
